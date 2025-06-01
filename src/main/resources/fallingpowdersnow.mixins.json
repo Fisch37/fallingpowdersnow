@@ -4,6 +4,8 @@
   "package": "de.fisch37.fallingpowdersnow.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
+    "EntityMixin",
+    "FallingBlockEntityMixin",
     "PowderSnowBlockMixin"
   ],
   "injectors": {
